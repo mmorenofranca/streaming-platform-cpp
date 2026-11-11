@@ -1,0 +1,396 @@
+<mxfile host="65bd71144e">
+    <diagram id="jAgVMY7TLCuJL-2YpNRy" name="Opcion1">
+        <mxGraphModel dx="1113" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Episodio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="639.44" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+                    <mxGeometry x="279.44" y="172.22" width="435.55" height="207.78" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="267.44" width="166.11" height="106.67" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Streaming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="106.11" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+                    <mxGeometry x="35" y="30" width="17.78" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Catálogo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="239.44" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Película" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="372.78" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Serie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="506.11" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="opcion 1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="43.5603453177258" y="92.22222222222223" as="sourcePoint"/>
+                        <mxPoint x="150.11055769230768" y="92.22222222222223" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="calificacion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150.11055769230768" y="118.88888888888889" as="sourcePoint"/>
+                        <mxPoint x="43.5603453177258" y="118.88888888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="calificacion" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="48.333655702341176" y="145.55555555555554" as="sourcePoint"/>
+                        <mxPoint x="154.88386807692308" y="145.55555555555554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="mostrarVideo (calificacion)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="150.00236842105267" y="163" as="sourcePoint"/>
+                        <mxPoint x="283.385" y="163" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Para cada pelicula o episodio de una serie,&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;muestra video y nombre&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="367.21855769230774" y="172.22222222222223" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="mostrarVideo(calificacion)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" target="8" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="284.1376923076923" y="234.44555555555553" as="sourcePoint"/>
+                        <mxPoint x="550.303076923077" y="234.44555555555553" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Por cada episodio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="594.9886538461539" y="267.1144444444444" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="mostrarVideo(calificacion)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="549.9975192307693" y="325.2488888888889" as="sourcePoint"/>
+                        <mxPoint x="682.8857692307693" y="325.2488888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="mostrarVideo(calificacion)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" source="7" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="417.2476923076923" y="257.3655555555555" as="sourcePoint"/>
+                        <mxPoint x="550" y="257" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Opcion2" id="nC8elZnrsHFf2P9GNySa">
+        <mxGraphModel dx="1113" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-1" value="Episodio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="639.44" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-2" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+                    <mxGeometry x="279.44" y="172.22" width="435.55" height="207.78" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-3" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="267.44" width="166.11" height="106.67" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-4" value="Streaming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="106.11" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+                    <mxGeometry x="35" y="30" width="17.78" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-6" value="Catálogo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="239.44" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-7" value="Película" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="372.78" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-8" value="Serie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="506.11" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-9" value="opcion 2" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="43.5603453177258" y="92.22222222222223" as="sourcePoint"/>
+                        <mxPoint x="150.11055769230768" y="92.22222222222223" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-10" value="genero" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150.11055769230768" y="118.88888888888889" as="sourcePoint"/>
+                        <mxPoint x="43.5603453177258" y="118.88888888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-11" value="genero" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="48.333655702341176" y="145.55555555555554" as="sourcePoint"/>
+                        <mxPoint x="154.88386807692308" y="145.55555555555554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-12" value="mostrarVideo (genero)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="150.00236842105267" y="163" as="sourcePoint"/>
+                        <mxPoint x="283.385" y="163" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Para cada pelicula o episodio de una serie,&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;muestra video y nombre&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="367.21855769230774" y="172.22222222222223" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-14" value="mostrarVideo(genero)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" target="BnpZOWe2udeNS9Wl-Fft-7" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="284.1376923076923" y="234.44555555555553" as="sourcePoint"/>
+                        <mxPoint x="550.303076923077" y="234.44555555555553" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-15" value="Por cada episodio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="594.9886538461539" y="267.1144444444444" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-16" value="mostrarVideo(genero)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="549.9975192307693" y="325.2488888888889" as="sourcePoint"/>
+                        <mxPoint x="682.8857692307693" y="325.2488888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BnpZOWe2udeNS9Wl-Fft-17" value="mostrarVideo(genero)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" source="BnpZOWe2udeNS9Wl-Fft-6" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="417.2476923076923" y="257.3655555555555" as="sourcePoint"/>
+                        <mxPoint x="550" y="257" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Opcion3" id="MzXC7S8-HVp_Re06zZQS">
+        <mxGraphModel dx="1113" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="24" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="35" y="30" width="693.33" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Episodio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="24" vertex="1">
+                    <mxGeometry x="604.4415384615385" width="88.88846153846154" height="266.66666666666663" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="group" parent="24" vertex="1" connectable="0">
+                    <mxGeometry width="679.9967307692308" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="23" vertex="1">
+                    <mxGeometry x="244.44326923076923" y="142.22222222222223" width="435.55346153846153" height="177.77777777777777" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="23" vertex="1">
+                    <mxGeometry x="446.66451923076926" y="204.44444444444443" width="224.4433653846154" height="106.66666666666666" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Streaming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="23" vertex="1">
+                    <mxGeometry x="71.11076923076924" width="88.88846153846154" height="266.66666666666663" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="23" vertex="1">
+                    <mxGeometry width="17.77769230769231" height="266.66666666666663" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Catálogo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="23" vertex="1">
+                    <mxGeometry x="204.44346153846155" width="88.88846153846154" height="266.66666666666663" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Película" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="23" vertex="1">
+                    <mxGeometry x="337.7761538461538" width="88.88846153846154" height="266.66666666666663" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Serie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="23" vertex="1">
+                    <mxGeometry x="471.1088461538462" width="88.88846153846154" height="266.66666666666663" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="opcion 3" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="23" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="8.560345317725796" y="62.22222222222222" as="sourcePoint"/>
+                        <mxPoint x="115.1105576923077" y="62.22222222222222" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="nombre Serie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115.1105576923077" y="88.88888888888889" as="sourcePoint"/>
+                        <mxPoint x="8.560345317725796" y="88.88888888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="nombre Serie" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="23" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="13.33365570234118" y="115.55555555555554" as="sourcePoint"/>
+                        <mxPoint x="119.88386807692308" y="115.55555555555554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="mostrarEpisodio (nombre)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="23" source="3" target="5" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="119.99980954849504" y="132.9511111111111" as="sourcePoint"/>
+                        <mxPoint x="226.55002192307694" y="132.9511111111111" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Para cada una de las series, muestra episodios y nombre&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="23" vertex="1">
+                    <mxGeometry x="299.9985576923077" y="142.22222222222223" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="mostrarEpisodio (nombre)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="23" target="7" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="248.8876923076923" y="195.55555555555554" as="sourcePoint"/>
+                        <mxPoint x="381.3315" y="195.55555555555554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Por cada episodio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="23" vertex="1">
+                    <mxGeometry x="511.10865384615386" y="204.44444444444443" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="mostrarEpisodios" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="23" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="515.9975192307693" y="248.88888888888889" as="sourcePoint"/>
+                        <mxPoint x="648.8857692307693" y="248.88888888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Opcion4" id="jIrWjfTQoQpCV02ORQ4f">
+        <mxGraphModel dx="1113" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-1" value="Episodio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="639.44" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-2" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+                    <mxGeometry x="279.44" y="172.22" width="140.56" height="127.78" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-4" value="Streaming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="106.11" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+                    <mxGeometry x="35" y="30" width="17.78" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-6" value="Catálogo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="239.44" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-7" value="Película" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="372.78" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-8" value="Serie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="506.11" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-9" value="opcion 4" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="43.5603453177258" y="92.22222222222223" as="sourcePoint"/>
+                        <mxPoint x="150.11055769230768" y="92.22222222222223" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-10" value="calificacion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150.11055769230768" y="118.88888888888889" as="sourcePoint"/>
+                        <mxPoint x="43.5603453177258" y="118.88888888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-11" value="calificacion" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="48.333655702341176" y="145.55555555555554" as="sourcePoint"/>
+                        <mxPoint x="154.88386807692308" y="145.55555555555554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-12" value="mostrarPeli(calificacion)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="150.00236842105267" y="163" as="sourcePoint"/>
+                        <mxPoint x="283.385" y="163" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Para cada pelicula&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;muestra video y nombre&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="275.71855769230774" y="250.00222222222223" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nh1qOgAf95yGm81oqMs-14" value="mostrarPeli(calificacion)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" target="3nh1qOgAf95yGm81oqMs-7" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="284.1376923076923" y="234.44555555555553" as="sourcePoint"/>
+                        <mxPoint x="550.303076923077" y="234.44555555555553" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Opcion5" id="vhBn9Nf4X2YF-7vbl7Dn">
+        <mxGraphModel dx="1113" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-1" value="Episodio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="639.44" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-4" value="Streaming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="106.11" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+                    <mxGeometry x="35" y="30" width="17.78" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-6" value="Catálogo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="239.44" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-7" value="Película" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="372.78" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-8" value="Serie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="506.11" y="30" width="88.89" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-9" value="opcion 5" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="43.5603453177258" y="92.22222222222223" as="sourcePoint"/>
+                        <mxPoint x="150.11055769230768" y="92.22222222222223" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-10" value="nombre video" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150.11055769230768" y="118.88888888888889" as="sourcePoint"/>
+                        <mxPoint x="43.5603453177258" y="118.88888888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-11" value="nombre video" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="48.333655702341176" y="145.55555555555554" as="sourcePoint"/>
+                        <mxPoint x="154.88386807692308" y="145.55555555555554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-12" value="califVideo (nom,calif)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="150.00236842105267" y="230" as="sourcePoint"/>
+                        <mxPoint x="283.385" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-19" value="calif otorgada" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="149.55055769230768" y="170.99888888888887" as="sourcePoint"/>
+                        <mxPoint x="43.000345317725795" y="170.99888888888887" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JgpA4xtH2AFT9hFYsUTB-20" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;calif otorgada&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="45.00365570234118" y="199.99555555555554" as="sourcePoint"/>
+                        <mxPoint x="151.5538680769231" y="199.99555555555554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZrYltQvB_lAAx0PnPKxW-1" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+                    <mxGeometry x="279.44" y="240" width="435.55" height="207.78" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZrYltQvB_lAAx0PnPKxW-2" value="for" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="335.22" width="166.11" height="106.67" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZrYltQvB_lAAx0PnPKxW-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Para cada pelicula o episodio de una serie,&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;muestra video y nombre&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="367.21855769230774" y="240.00222222222223" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZrYltQvB_lAAx0PnPKxW-4" value="califVideo(nom,calif)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="284.1376923076923" y="302.2255555555555" as="sourcePoint"/>
+                        <mxPoint x="417" y="301.78" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZrYltQvB_lAAx0PnPKxW-5" value="Por cada episodio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="594.9886538461539" y="334.8944444444444" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZrYltQvB_lAAx0PnPKxW-6" value="califVideo(nom,calif)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="549.9975192307693" y="393.0288888888889" as="sourcePoint"/>
+                        <mxPoint x="682.8857692307693" y="393.0288888888889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZrYltQvB_lAAx0PnPKxW-7" value="califVideo (nom,calif)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="283" y="324.78" as="sourcePoint"/>
+                        <mxPoint x="550" y="324.78" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
